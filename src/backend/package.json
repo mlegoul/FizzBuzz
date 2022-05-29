@@ -1,0 +1,23 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "FizzBuzz en TDD",
+  "main": "index.js",
+  "scripts": {
+    "start:watch": "tsc -w -p tsconfig.json",
+    "start:compile": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlegoul/FizzBuzz.git"
+  },
+  "keywords": [],
+  "author": "mlegoul",
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/mlegoul/FizzBuzz/issues"
+  },
+  "homepage": "https://github.com/mlegoul/FizzBuzz#readme"
+}
+

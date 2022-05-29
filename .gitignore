@@ -1,6 +1,7 @@
-#IDE
+# IDE Jetbrains
 .idea
 
 # Node
-src/node_modules
-src/package-lock.json
+node_modules
+package-lock.json
+dist

@@ -1,5 +1,8 @@
-function index(a: number, b: number) {
-    return a + b;
-}
+export class FizzBuzz {
+    constructor() {
+    }
 
-export { index };
+    public addition(a: number, b: number) {
+        return a + b;
+    }
+}

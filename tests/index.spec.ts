@@ -1,4 +1,4 @@
-import {index} from '../src';
+import {FizzBuzz} from '../src';
 
 describe('Main maths operations', () => {
     it('Addition : adds 1 + 2 to equal 3', async () => {
@@ -7,9 +7,9 @@ describe('Main maths operations', () => {
         const b = 2;
 
         // WHEN
-        const result = index(a, b);
+        const result = new FizzBuzz;
 
         // THEN
-        expect(result).toBe(0);
+        expect(result.addition(a, b)).toBe(3);
     });
 });
